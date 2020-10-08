@@ -17,5 +17,5 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Thank you to Motivates that let me use their data.
+Thank you to Motivate that let me use their data.
 Thank you Udacity for providing the data and educational support.
