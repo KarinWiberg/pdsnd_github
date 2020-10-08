@@ -1,15 +1,21 @@
 ### Date created
-Include the date you created this project and README file.
+2020-10-08
 
 ### Project Title
-Replace the Project Title
+3 Cities Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+The project analyses Motivates bike rental customer patterns from the three major cities: Chicago, New York City and Washington.
 
 ### Files used
-Include the files used
+# Python file
+bikeshare_2.py
+
+# data files
+chicago.csv  
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thank you to Motivates that let me use their data.
+Thank you Udacity for providing the data and educational support.
