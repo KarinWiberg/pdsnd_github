@@ -38,6 +38,10 @@ def get_filters():
     city = input('Which city do you want to explore? (Chicago, New york city, Washington or all)\n').lower()
     # print(indata)
 
+    print()
+    while city not in ['chicago','new york city','washington']:
+        city = input('Lets try again - Which city do you want to explore? (Chicago, New york city, Washington)\n').lower()
+        # print(indata)
 
 
     # TO DO: get user input for month (all, january, february, ... , june)
@@ -78,7 +82,14 @@ def get_filters():
     while day not in ['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all']:
         day = input('Lets try again - Which weekday would you like to explore? (Monday, Tuesday, Wednesday etc. or all)\n').lower()        # print(indata)
 
-    # get user input for day of week (all, monday, tuesday, ... sunday)
+    # print()
+    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
+    day = input('Which weekday would you like to explore? (Monday, Tuesday, Wednesday etc. or all)\n').lower()
+    # print(indata)
+
+    print()
+    while day not in ['monday','tuesday','wednesday','thursday','friday','saturday','sunday','all']:
+        day = input('Lets try again - Which weekday would you like to explore? (Monday, Tuesday, Wednesday etc. or all)\n').lower()        # print(indata)
 
     # print()
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
